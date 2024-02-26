@@ -1,0 +1,22 @@
+.our {
+    margin-bottom: 200px;
+    .background {
+        background: url('../../assets/img/collection.png') no-repeat;
+        background-size: cover;
+        width: 1111px;
+        height: 196px;
+        margin-left: 85px;
+    }
+
+    &__list {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        margin-top: -60px;
+    }
+
+    &__item {
+        width: 270px;
+        text-align: center;
+    }
+}

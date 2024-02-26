@@ -1,0 +1,50 @@
+.heroo {
+    .container {
+        background: url('../../assets/img/cofeee.png') no-repeat;
+        background-size: cover;
+        height: 450px;
+        width: 1280px;
+        border-radius: 9px;
+        margin-bottom: 136px;
+    }
+
+    &__info {
+        width: 493px;
+        margin-left: 85px;
+        padding-top: 117px;
+    }
+
+    &__heading {
+        font-family: 'Fraunces';
+        font-size: 72px;
+        font-weight: 900;
+        line-height: 72px;
+        color: #FEFCF7;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 32px;
+    }
+
+    &__text {
+        font-family: 'Barlow' serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #FEFCF7;
+        opacity: 0.8;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 56px;
+    }
+
+    &__link {
+        font-family: 'Fraunces';
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 25px;
+        color: #FEFCF7;
+        background-color: #0E8784;
+        padding: 16px 31px;
+        border-radius: 8px;
+    }
+}

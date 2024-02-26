@@ -1,0 +1,19 @@
+.footer {
+    background-color: #2C343E;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 47px 0px;
+    }
+
+    .header__link:hover {
+        color: white;
+    }
+
+    &__icons {
+        display: flex;
+        gap: 33px;
+    }
+}

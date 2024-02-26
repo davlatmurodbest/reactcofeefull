@@ -1,0 +1,88 @@
+.card {
+    .container {
+        width: 1280px;
+        margin-top: 186px;
+        border-radius: 8px;
+        background-color:#2C343E;
+        margin-bottom: 160px;
+    }
+
+    &__info {
+        padding-top: 70px;
+        margin-bottom: 82px;
+        margin-left: 100px;
+    }
+
+    &__box {
+        display: grid;
+        grid-template-columns: repeat(3, 370px);
+        margin-top: -17px;
+        margin-bottom: 67px;
+    }
+
+    &__circle {
+        width: 30px;
+        height: 30px;
+        border: 2px solid #0E8784;
+        border-radius: 50%;
+    }
+
+    &__line {
+        margin-top: 100px;
+        width: 737px;
+        height: 2px;
+        margin-left: 16px;
+        background-color: #FDD6BA;
+        display: block;
+    }
+
+    &__list {
+        margin-left: 80px;
+        display: flex;
+    }
+
+    &__item {
+        width: 285px;
+    }
+
+    &__item+&__item {
+        margin-left: 95px;
+    }
+
+    &__item__heading {
+        width: 255px;
+        height: 73px;
+        font-family: 'Fraunces';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 36px;
+        color: #FEFCF7;
+        padding-bottom: 42px;
+    }
+
+    &__item__text {
+        margin: 0;
+        padding: 0;
+        width: 285px;
+        color: #FEFCF7;
+        font-family: 'Barlow' serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        padding-bottom: 99px;
+    }
+}
+
+.item__heading {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 38px;
+    color: #FDD6BA;
+    font-family: 'Fraunces';
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+}

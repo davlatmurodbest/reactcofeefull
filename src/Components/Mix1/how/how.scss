@@ -1,0 +1,75 @@
+.how {
+    margin-left: 80px;
+    margin-bottom: 200px;
+
+    &__heading {
+        font-family: 'Fraunces';
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px;
+        color: #83888F;
+        margin-bottom: 80px;
+    }
+
+    &__line {
+        width: 760px;
+        height: 1px;
+        border-radius: 2px;
+        display: block;
+        background-color: #FDD6BA;
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 67px;
+    }
+
+    &__circ {
+        width: 31px;
+        height: 31px;
+        border-radius: 50%;
+        border: 2px solid #0E8784;
+        background-color: #FEFCF7;
+    }
+
+    &__list {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 64px;
+    }
+
+    &__item + &__item {
+        margin-left: 95px;
+    }
+
+    &__item {
+        width: 285px;
+    }
+
+    &__num {
+        font-family: 'Fraunces';
+        font-size: 72px;
+        font-weight: 900;
+        line-height: 72px;
+        color: #FDD6BA;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__head {
+        font-family: 'Fraunces';
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 36px;
+        color: #333D4B;
+    }
+
+    &__text {
+        font-family: 'Barlow' serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #333D4B;
+    }
+}

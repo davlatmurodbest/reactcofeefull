@@ -1,0 +1,28 @@
+.ourr {
+    margin-bottom: 256px;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    &__info {
+        width: 540px;
+    }
+
+    &__heading {
+        font-family: 'Fraunces';
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 48px;
+        color: #333D4B;
+    }
+
+    &__text {
+        font-family: 'Barlow' serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        opacity: 0.8;
+    }
+}

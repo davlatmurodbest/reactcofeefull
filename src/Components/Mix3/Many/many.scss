@@ -1,0 +1,109 @@
+.many {
+    .container {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 88px;
+    }
+
+    &__text {
+        padding-bottom: 24px;
+        border-bottom: 1px solid black;
+        font-family: 'Fraunces';
+        font-size: 24px;
+        font-weight: 900;
+        color: #333D4B;
+        line-height: 32px;
+        opacity: 0.5;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    &__num {
+        padding-right: 28px;
+        font-family: 'Fraunces';
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px;
+        color: #333D4B;
+    }
+
+    &__qy {
+        font-family: 'Fraunces';
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 48px;
+        color: #83888F;
+        margin: 0;
+        padding: 0;
+        padding-top: 20px;
+        display: none;
+        padding-bottom: 10px;
+        margin-bottom: 56px;
+    }
+
+    @keyframes alham {
+        0% {
+            margin-top: -100px;
+            opacity: 0;
+        }
+
+        100% {
+            margin-top: 0px;
+            opacity: 1;
+        }
+    }
+
+    .animation {
+        animation-name: alham;
+        animation-duration: 4s;
+        display: block;
+    }
+
+    &__pic {
+        margin-left: 80px;
+        transform: rotate(180deg);
+    }
+
+    &__many {
+        display: flex;
+        gap: 23px;
+        // display: none;
+    }
+
+    &__bob {
+        width: 200px;
+        background-color: #F4F1EB;
+        border-radius: 12px;
+        padding: 20px;
+
+        &:hover {
+            background-color: #FDD6BA;
+        }
+
+        &:active {
+            color: #fff;
+            background-color: #0E8784;
+        }
+    }
+
+    &__box {
+        margin-bottom: 88px;
+    }
+
+    &__head {
+        font-family: 'Fraunces';
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px;
+    }
+
+    &__tex {
+        font-family: 'Barlow';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        width: 172px;
+    }
+}

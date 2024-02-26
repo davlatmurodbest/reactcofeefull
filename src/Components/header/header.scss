@@ -1,0 +1,26 @@
+.header {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0px;
+        margin-bottom: 33px;
+    }
+
+    &__info {
+        display: flex;
+        gap: 33px;
+    }
+
+    &__link {
+        font-family: 'Barlow';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 15px;
+        color: #83888F;
+
+        &:hover {
+            color: #333D4B;
+        }
+    }
+}
